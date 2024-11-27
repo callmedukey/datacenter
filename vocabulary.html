@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>데이터센터</title>
+  </head>
+  <body>
+    <header class="relative">
+      <a href="/">
+        <img
+          src="/logo-black.svg"
+          alt="데이터센터"
+          width="106"
+          height="38"
+          loading="eager"
+          class="logo"
+        />
+      </a>
+      <nav class="header-nav max-width">
+        <a href="/">방산 업체</a>
+        <a href="/">장비무기명</a>
+        <a href="/">무기시스템</a>
+        <a href="/parts">부품명</a>
+        <a href="/">부품분류</a>
+        <a href="/">기품원분</a>
+        <a href="/">방산 뉴스</a>
+        <a href="/">무기 분류</a>
+        <a href="/">키워드</a>
+        <a href="/">+more</a>
+        <div class="header-nav-side">
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1"
+              stroke="currentColor"
+              class=""
+              id="globe-svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+              />
+            </svg>
+          </button>
+          <div id="auth-container">
+            <a href="/login" id="login-btn">로그인</a>
+            <a href="/signup">회원가입</a>
+          </div>
+        </div>
+      </nav>
+      <button id="mobile-menu-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="#FFFFFF"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#000"
+          style="width: 100%; height: 100%"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </button>
+    </header>
+    <main class="parts-main-container">
+      <div class="max-width mx-auto container-padding">
+        <h1 class="page-title">오늘의 군사용어</h1>
+        <section class="flex-container vocab-aside-container">
+          <div class="content-left">
+            <h2 class="section-title">오늘의 군사용어</h2>
+            <dl>
+              <dl>
+                <dt>용어</dt>
+                <dd>Run flat tire</dd>
+              </dl>
+              <dl>
+                <dt>의미</dt>
+                <dd>
+                  "런플랫"은 타이어가 펑크 나거나 공기압이 빠져도 일정 거리 동안
+                  주행할 수 있도록 설계된 타이어입니다. 런플랫 타이어는 강화된
+                  옆면이나 내부 지지 구조를 통해 공기압이 없더라도 형태를
+                  유지하며, 일반 타이어처럼 바람이 빠졌을 때 운전이 불가능한
+                  상황을 피할 수 있게 도와줍니다.
+                </dd>
+              </dl>
+            </dl>
+            <a href="#" class="youtube-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="youtube-icon"
+              >
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="content-right">
+            <h2 class="section-title">군사영어 리스트</h2>
+            <ol class="terms-list">
+              <li>Run flat tire</li>
+              <li>Suicide Drone</li>
+              <li>Anti Drone</li>
+              <li>Warrior Platform</li>
+              <li>Stealth</li>
+              <li>Combat readiness</li>
+              <li>Tactical deployment</li>
+              <li>Strategic deterrence</li>
+              <li>Force multiplier</li>
+              <li>Command and control</li>
+              <li>Rules of engagement</li>
+              <li>Forward operating base</li>
+              <li>Battle damage assessment</li>
+              <li>Counter-intelligence</li>
+              <li>Force protection</li>
+              <li>Combat support</li>
+              <li>Operational security</li>
+              <li>Reconnaissance mission</li>
+              <li>Tactical maneuver</li>
+              <li>Strategic airlift</li>
+              <li>Electronic warfare</li>
+              <li>Close air support</li>
+              <li>Battlefield awareness</li>
+              <li>Combat effectiveness</li>
+              <li>Military logistics</li>
+            </ol>
+          </div>
+        </section>
+      </div>
+    </main>
+    <section class="explanation-section">
+      <div class="max-width mx-auto container-padding">
+        <h2 class="section-title">설명</h2>
+        <div class="explanation-content">
+          <p>
+            "런플랫"은 타이어가 펑크 나거나 공기압이 빠져도 일정 거리 동안
+            주행할 수 있도록 설계된 타이어입니다. 런플랫 타이어는 강화된
+            옆면이나 내부 지지 구조를 통해 공기압이 없더라도 형태를 유지하며,
+            일반 타이어처럼 바람이 빠졌을 때 운전이 불가능한 상황을 피할 수 있게
+            도와줍니다.
+          </p>
+          <p>"run"이 명사로 쓰인 중요한 표현들도 몇 가지 소개해 드릴게요:</p>
+          <p>
+            A dry run<br />
+            뜻: 예행 연습, 리허설<br />
+            예문: "We should do a dry run before the big presentation." (본 발표
+            전에 예행 연습을 해야 해.)<br />
+            설명: 주로 큰 일이나 발표 전 미리 점검하고 싶을 때 쓰이는 표현으로,
+            실제 상황을 대비한 리허설 의미로 자주 사용됩니다.
+          </p>
+          <p>
+            또 runner-up이라는 표현도 있습니다. 준우승자를 말합니다<br />
+            He finished as the runner-up.
+          </p>
+          <p>
+            또 그냥 명사로 스타킹의 올을 말하기도 합니다 You've got a run in
+            your pantyhose.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="dialogue-section">
+      <div class="max-width mx-auto container-padding">
+        <h2 class="section-title">대화</h2>
+        <div class="dialogue-content">
+          <ul>
+            <li>A: I heard you got a flat tire yesterday.</li>
+            <li>B: Yeah, but luckily, I have run-flat tires.</li>
+            <li>A: "Oh, so you didn't have to stop right away?"</li>
+            <li>
+              B: "Exactly! I could keep driving for about 50 miles to the
+              nearest repair shop."
+            </li>
+            <li>
+              A: "That's really convenient. Do they work for all types of cars?"
+            </li>
+            <li>
+              B: "Not all, but they're becoming more common on newer models."
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="dialogue-section">
+      <div class="max-width mx-auto container-padding">
+        <h2 class="section-title">해석</h2>
+        <div class="dialogue-content">
+          <ul>
+            <li>A: "어제 타이어 펑크 났다고 들었어."</li>
+            <li>B: "응, 근데 다행히 런플랫 타이어가 있거든."</li>
+            <li>A: "오, 그래서 바로 멈출 필요 없었구나?"</li>
+            <li>
+              B: "맞아! 가까운 정비소까지 80킬로미터 정도는 계속 운전할 수
+              있었어."
+            </li>
+            <li>A: "정말 편리하네. 모든 차에 사용할 수 있어?"</li>
+            <li>
+              B: "모든 차는 아니지만, 최신 모델에서는 점점 흔해지고 있어."
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="dialogue-section">
+      <div class="max-width mx-auto container-padding">
+        <h2 class="section-title">어휘</h2>
+        <div class="dialogue-content">
+          <ul>
+            <li>Run-flat tire - 펑크 나도 일정 거리 주행 가능한 타이어</li>
+            <li>Reinforced sidewall - 강화된 타이어 옆면</li>
+            <li>Air pressure - 공기압</li>
+            <li>Nearest repair shop - 가장 가까운 정비소</li>
+            <li>Flat tire - 펑크 난 타이어</li>
+            <li>A dry run - 예행 연습</li>
+            <li>Runner-up - 준우승자</li>
+            <li>Run (in pantyhose) - 스타킹의 올</li>
+            <li>here</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-info">
+          <div class="footer-left">
+            <span>대표자명 : 조영도</span>
+            <span>상호: 링크드 데이터 센터</span>
+            <span>사업자등록번호 : 446-06-00440</span>
+          </div>
+          <div class="footer-separator"></div>
+          <div class="footer-right">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="footer-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+              </svg>
+              연락처 : 010-9744-5425
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="footer-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>
+              이메일 : myungdae.cho@gmail.com
+            </span>
+          </div>
+        </div>
+        <p class="copyright">Copyright ⓒ Linked Data Center. All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
